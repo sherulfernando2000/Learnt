@@ -381,6 +381,7 @@ abbr{
     margin:0 auto;
     position:relative
 }
+
 .widget > h2,.widget > h3{
     display:none
 }
@@ -7258,5 +7259,25 @@ function _0x4748(_0x2309fc,_0x689aea){_0x2309fc=_0x2309fc-0x1da;var _0x407144=_0
 //]]>
 </script>
 <!-- Blogger Scripts -->
+<script type='text/javascript'>
+//<![CDATA[
+(function(){
+  function hideLink(){
+    var anchors = document.getElementsByTagName('a');
+    for(var i=0; i<anchors.length; i++){
+      var a = anchors[i];
+      if((a.innerText && a.innerText.indexOf('DOWNLOAD THIS TEMPLATE') > -1) || (a.innerHTML && a.innerHTML.indexOf('DOWNLOAD THIS TEMPLATE') > -1)){
+        a.style.position = 'absolute';
+        a.style.left = '-9999px';
+        a.style.visibility = 'hidden';
+        a.style.display = 'none';
+      }
+    }
+  }
+  window.addEventListener('load', hideLink);
+  setInterval(hideLink, 1000);
+})();
+//]]>
+</script>
 </body>
 </html>
