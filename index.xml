@@ -4,6 +4,7 @@
   <b:include name='dark-mode'/>
   <head>
   <b:include name='theme-head'/>
+  <meta name="google-site-verification" content="_A2vk7Cn7hBL2hOGx6Xkl4KTwoEBd6Za1f2WZLVXkC8" />
   <b:if cond='!data:view.isLayoutMode'>
   <!-- Theme CSS Style -->
   <b:skin version='1.0.0'><![CDATA[/*
